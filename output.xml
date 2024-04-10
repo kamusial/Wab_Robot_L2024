@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.11.2 on win32)" generated="2024-04-10T14:14:43.528810" rpa="false" schemaversion="5">
+<suite id="s1" name="1 Wikipedia" source="C:\Users\vdi-student\Desktop\Wab_Robot_L2024\1_wikipedia.robot">
+<test id="s1-t1" name="MyFirstTest" line="9">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-04-10T14:14:43.757101" level="INFO">Opening browser 'firefox' to base url 'https://en.wikipedia.org/'.</msg>
+<msg time="2024-04-10T14:14:43.769290" level="INFO">Executing: C:\Users\vdi-student\AppData\Roaming\Python\Python311\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser firefox --output json</msg>
+<arg>https://en.wikipedia.org/</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-04-10T14:14:43.755891" elapsed="3.146263"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-10T14:14:49.903195" level="INFO">Slept 3 seconds.</msg>
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-10T14:14:46.902154" elapsed="3.001041"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-10T14:14:49.904201" level="INFO">Clicking element 'id:pt-login-2'.</msg>
+<arg>id:pt-login-2</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-10T14:14:49.904201" elapsed="1.011147"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-10T14:14:53.916521" level="INFO">Slept 3 seconds.</msg>
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-10T14:14:50.916340" elapsed="3.000181"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-04-10T14:14:53.917665" level="INFO">Typing text 'Kamil' into text field 'id:wpName1'.</msg>
+<arg>id:wpName1</arg>
+<arg>Kamil</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-10T14:14:53.917665" elapsed="0.034642"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-04-10T14:14:53.954627" level="INFO">Typing text 'Password' into text field 'id:wpPassword1'.</msg>
+<arg>id:wpPassword1</arg>
+<arg>Password</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-10T14:14:53.953438" elapsed="0.025589"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-10T14:14:56.980344" level="INFO">Slept 3 seconds.</msg>
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-10T14:14:53.980147" elapsed="3.000197"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-04-10T14:14:56.981416" level="INFO">Typing text 'Try Me' into text field 'id:searchInput'.</msg>
+<arg>id:searchInput</arg>
+<arg>Try Me</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-10T14:14:56.981416" elapsed="0.027788"/>
+</kw>
+<kw name="Press Keys" owner="SeleniumLibrary">
+<msg time="2024-04-10T14:14:57.010293" level="INFO">Sending key(s) ('ENTER',) to id:searchInput element.</msg>
+<msg time="2024-04-10T14:14:57.293990" level="INFO">Pressing special key ENTER to element.</msg>
+<msg time="2024-04-10T14:14:57.293990" level="INFO">Releasing special key ENTER.</msg>
+<arg>id:searchInput</arg>
+<arg>ENTER</arg>
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<status status="PASS" start="2024-04-10T14:14:57.009204" elapsed="0.307638"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-04-10T14:14:57.317914" elapsed="0.858082"/>
+</kw>
+<status status="PASS" start="2024-04-10T14:14:43.754710" elapsed="14.421305"/>
+</test>
+<status status="PASS" start="2024-04-10T14:14:43.529883" elapsed="14.647216"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="1 Wikipedia">1 Wikipedia</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

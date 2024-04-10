@@ -1,0 +1,20 @@
+1712751283944	geckodriver	INFO	Listening on 127.0.0.1:51047
+1712751284452	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51048" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\VDI-ST~1\\AppData\\Local\\Temp\\rust_mozprofileQlbp3R"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712751284829	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712751284917	Marionette	INFO	Listening on port 51053
+WebDriver BiDi listening on ws://127.0.0.1:51048
+Read port: 51053
+1712751285110	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51048/devtools/browser/8ec29dc7-2d8b-49fa-a12a-f994f35b1c82
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://en.wikipedia.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://en.wikipedia.org."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://en.wikipedia.org."
+1712751297319	Marionette	INFO	Stopped listening on port 51053
+JavaScript warning: https://en.wikipedia.org/w/load.php?lang=en&modules=skins.vector.search%7Cskins.vector.search.codex.scripts%7Cvue&skin=vector-2022&version=9ilus, line 94: Script terminated by timeout at:
+get value@https://en.wikipedia.org/w/load.php?lang=en&modules=skins.vector.search%7Cskins.vector.search.codex.scripts%7Cvue&skin=vector-2022&version=9ilus:94:156
+_codex/CdxTypeaheadSearch.cjs/setup/I/v<@https://en.wikipedia.org/w/load.php?lang=en&modules=skins.vector.search%7Cskins.vector.search.codex.scripts%7Cvue&skin=vector-2022&version=9ilus:68:877
+
+Dynamically enable window occlusion 1
